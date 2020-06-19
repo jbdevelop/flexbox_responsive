@@ -26,7 +26,7 @@ img {
 }
 
 .superinfo-bg {
-  background: #122ab2;
+  background: cadetblue;
   color: white;
 }
 
@@ -48,7 +48,7 @@ img {
 }
 
 .menu-bg {
-  background: #2c70ff;
+  background: darkslategrey;
 }
 
 .menu {
@@ -108,7 +108,7 @@ img {
 
 .sobre-info {
   border: 0px solid black;
-  flex: 2 1 300px;
+  flex: 1 1 300px;
   margin: 0 10px;
 }
 
@@ -125,8 +125,8 @@ img {
 }
 
 .sobre-img {
-  flex: 1 1 160px;
-  margin: 0 10px;
+  flex: 2 1 170px;
+  margin: 0 10px;  
 }
 
 
@@ -152,6 +152,10 @@ img {
   padding: 60px 20px;
 }
 
+.produtos-item img {
+  height: 400px;
+}
+
 .produtos-item h2 {
   font-size: 3em;
   color: #a4a4a4;
@@ -160,15 +164,15 @@ img {
 }
 
 .purple {
-  border-top: 8px solid #ae81ff;
+  border-top: 8px solid #cd7f32;
 }
 
 .pink {
-  border-top: 8px solid palevioletred;
+  border-top: 8px solid silver;
 }
 
 .blue {
-  border-top: 8px solid #66d9eb;
+  border-top: 8px solid gold;
 }
 
 .preco {
@@ -287,15 +291,15 @@ img {
 }
 
 .qualidade-item:nth-of-type(3n+1) h2::before {
-  background: #ae81ff;
+  background: #cd7f32;
 }
 
 .qualidade-item:nth-of-type(3n+2) h2::before {
-  background: #f9265e;
+  background: silver;
 }
 
 .qualidade-item:nth-of-type(3n+3) h2::before {
-  background: #66d9eb;
+  background: gold;
 }
 
 .qualidade-item p {
@@ -343,7 +347,7 @@ img {
   color: #7c7c7c;
   font-style: italic;
   font-family: "Nunito", Helvetica, Arial, sans-serif;
-  border: 4px solid #2c70ff;
+  border: 4px solid darkslategrey;
   background: transparent;
   padding: 15px 10px;
   margin: 0;
@@ -356,7 +360,7 @@ img {
   font-size: 2.25em;
   font-weight: bold;
   text-transform: uppercase;
-  background: #2c70ff;
+  background: darkslategrey;
   color: white;
   margin: 0;
   cursor: pointer;
@@ -372,14 +376,14 @@ img {
 
 .footer {
   display: flex;
-  background: #2c70ff;
-  height: 200px;
+  background: darkslategrey;
+  height: 80px;
   align-items: center;
 }
 
 .footer p {
    flex: 1;
    text-align: center;
-   font-size: 2.25em;
-   color: #122ab2;
+   font-size: 1.5em;
+   color: cadetblue;
 }
