@@ -80,10 +80,11 @@ img {
   font-size: 1.25em;
   display: block;
   padding: 10px;
+  transition: 0.3s;
 }
 
-.menu-nav a:hover {
-  color: #122ab2;
+.menu-nav a:hover {  
+  color: cadetblue;
 }
 
 
